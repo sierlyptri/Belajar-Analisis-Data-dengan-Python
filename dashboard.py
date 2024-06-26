@@ -5,7 +5,6 @@ import streamlit as st
 import urllib
 import matplotlib.image as mpimg
 from babel.numbers import format_currency
-sns.set(style='dark')
 
 # Menyiapkan DataFrame
 def create_daily_orders_df(df):
